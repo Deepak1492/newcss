@@ -1,0 +1,148 @@
+/*---------------------------html section------------------*/
+body {
+  text-align: center;
+  margin: 0px;
+  font-family: 'Montez', cursive;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 4.53rem;
+  margin: auto;
+  color: #00909e;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+h2 {
+  font-size: 30px;
+  color: #00909e;
+  font-family: cursive;
+}
+
+h3 {
+  color: #00909e;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: auto;
+  color: gray;
+}
+
+hr {
+  border: dotted;
+  width: 30px;
+  margin: 100px auto 100px auto;
+  border-bottom: none;
+  color: #63b7af;
+}
+
+a {
+  font-size: 20px;
+  color: #82c4c3;
+  font-family: cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/*------------------------------CSS section-----------------*/
+
+.top-container {
+  background-color: #d4f3ef;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middile-container {
+
+}
+
+.bottom-container {
+  background-color: #16817a;
+  padding: 30px 0 20px;
+  margin: auto;
+}
+
+.cloud-top {
+  right: 300px;
+  top: 40px;
+  position: absolute;
+}
+
+.cloud-bottom {
+  margin-bottom: 300px;
+  position: absolute;
+  left: 300px;
+}
+
+.mountain-image {
+  bottom: 0px;
+}
+
+.skill-raw {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.code-img {
+  float: left;
+  text-align: right;
+  margin-right: 30px;
+  width: 25%
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 100px auto 50px;
+}
+
+.company {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  margin: 100px auto 30px;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 13px;
+  border: 3px solid #29668f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
