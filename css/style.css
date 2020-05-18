@@ -4,6 +4,7 @@ body {
   margin: 0px;
   font-family: 'Montez', cursive;
   font-weight: normal;
+  font-weight: normal;
 }
 
 h1 {
@@ -11,12 +12,14 @@ h1 {
   margin: auto;
   color: #00909e;
   font-family: 'La Belle Aurore', cursive;
+  padding-top: 20px;
 }
 
 h2 {
   font-size: 30px;
   color: #00909e;
   font-family: cursive;
+  margin-top: 3px;
 }
 
 h3 {
@@ -43,7 +46,7 @@ a {
   font-size: 20px;
   color: #82c4c3;
   font-family: cursive;
-  margin: 10px 20px;
+  margin: 10px 10px;
   text-decoration: none;
 }
 
@@ -54,19 +57,19 @@ a:hover {
 /*------------------------------CSS section-----------------*/
 
 .top-container {
-  background-color: #d4f3ef;
+  background-color: #EEEEEE;
   position: relative;
   padding-top: 150px;
 }
 
 .middile-container {
-
 }
 
 .bottom-container {
   background-color: #16817a;
   padding: 30px 0 20px;
   margin: auto;
+  height: 50px;
 }
 
 .cloud-top {
@@ -110,8 +113,9 @@ a:hover {
 }
 
 .company {
-  font-size: 20px;
+  font-size: 15px;
   margin: 10px;
+  color: black;
 }
 
 .profile {
